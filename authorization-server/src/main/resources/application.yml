@@ -5,7 +5,7 @@ spring:
     url: jdbc:mysql://localhost:3306/authDB?createDatabaseIfNotExist=true
     username: root
     password: root
-    driver-class-name: com.mysql.jdbc.Driver
+
     initialization-mode: always
   jpa:
     hibernate:
