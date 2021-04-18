@@ -1,5 +1,24 @@
 spring:
   application:
     name: profile
-  config:
-    import: optional:configserver:http://localhost:8191
+  datasource:
+    url: jdbc:postgresql://localhost:5432/rent_db
+    driver-class-name: org.postgresql.Driver
+    data-username: qbis
+    data-password: qbis
+    jpa:
+      properties:
+        hibernate:
+          formatSql: true
+          naming:
+          physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+          ddl-auto: none
+      databasePlatform: "org.hibernate.dialect.PostgreSQLDialect"
+      show-sql: false
+security:
+  oauth2:
+    resource:
+      token-info-uri: http://localhost:9191/oauth/check_token
+    client:
+      client-id: mobile
+      client-secret: pin
