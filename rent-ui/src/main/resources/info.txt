@@ -1,0 +1,3 @@
+I have made change in web_server_redirect_uri column of oauth_client_details table.
+
+changes value: 'http://localhost:8080/code' to 'http://localhost:7070/login'
