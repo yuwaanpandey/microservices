@@ -1,0 +1,9 @@
+
+^
+java:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(‚è¥
+[
+java:S4684"@Replace this persistent entity with a simple POJO or DTO object.(„òË…ùÿÿÿÿ
+^
+java:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ÚÛÛ 
+`
+java:S4488"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(à¢»ò
